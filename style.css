@@ -1,0 +1,36 @@
+body{
+	background-color: black;
+}
+h1{
+	color: lime;
+	font-family: sans-serif
+}
+p{
+	color: green;
+	font-family: sans-serif;
+}
+a{
+	color: #4287f5;
+	font-family: sans-serif;
+	font-size: 14;
+}
+li{
+	color:lime;
+	font-family: sans-serif;
+}
+ol{
+	color: lime;
+	font-family: sans-serif;
+}
+h2{
+	color:lime;
+	font-family: sans-serif;
+}
+h4{
+	color:lime;
+	font-family:sans-serif;
+}
+h3{
+	color:lime;
+	font-family:sans-serif;
+}
