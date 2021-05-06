@@ -6,7 +6,12 @@ body{
 	text-align: center;
 }
 a{
-	color: #4287f5;
 	font-size: 14;
 	text-decoration: none;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
 }
