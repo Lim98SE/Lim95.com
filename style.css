@@ -8,7 +8,7 @@
 }
 body{
 	background-color: black;
-	color: lime;
+	color: 00c403;
 	text-align: center;
 	font-family: 'Gameplay';
 }
@@ -28,4 +28,7 @@ a:hover{
 html{
 	border: 2px solid lime;
 	border-radius: 5px;
+}
+h1, h2, h3, h4{
+	color: lime;
 }
