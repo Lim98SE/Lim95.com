@@ -2,7 +2,7 @@
     font-family: 'Gameplay';
     src: url('Gameplay.woff2') format('woff2'),
         url('Gameplay.woff') format('woff');
-    font-weight: normal;
+    font-weight: light;
     font-style: normal;
     font-display: swap;
 }
