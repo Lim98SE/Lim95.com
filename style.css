@@ -6,30 +6,48 @@
     font-style: normal;
     font-display: swap;
 }
-body{
-	background-color: black;
-	color: 008502;
-	text-align: center;
+html{
 	font-family: 'Gameplay';
-	padding: 2px;
+	color: 1c1c1c;
+	text-align: center;
+	background-color: 4f4f4f;
+	text-shadow: 1px;
+	background-repeat: no-repeat;
+	padding: 20px;
+}
+body{
+	padding: 4px;
+	background-color: bfbfbf;
+	border: 2px solid black;
+}
+input{
+	border: 1px solid black;
+	color: white;
+	background-color: gray;
+	padding: 3px;
+	opacity: 0.5;
+}
+input.text{
+		width: 200px;
+}
+list{
+	text-align: center;
+}
+input:focus, input:hover{
+	opacity: 1.0;
+	size: 1.2;
+}
+img.button{
+	opacity: 0.5;
+}
+img.button:hover{
+	opacity: 1;
 }
 a{
-	color: 00b7ff;
-	font-size: 14;
-	text-decoration: none;
-	padding: 3px;
-}
-a:link{
+	color: 0062ff;
 	text-decoration: none;
 }
 a:hover{
+	color: 1100ff;
 	text-decoration: underline;
-	color: 0062ff;
-}
-html{
-	border: 2px solid lime;
-	border-radius: 5px;
-}
-h1, h2, h3, h4{
-	color: lime;
 }
