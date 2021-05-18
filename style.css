@@ -1,85 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
-html{
-	font-family: 'Noto Sans JP', sans-serif;
-	background-image: linear-gradient(#0062ff, #8800ff);
-	background-color: #8800ff;
-	background-repeat: no-repeat;
+@font-face {
+    font-family: 'Gameplay';
+    src: url('Gameplay.woff2') format('woff2'),
+        url('Gameplay.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+	background-color: black;
+	color: 008502;
 	text-align: center;
-	display: block;
+	font-family: 'Gameplay';
+	padding: 4px;
 }
-div.nav{
-	background-color: #f0f0f0;
-	border-radius: 5px;
-	padding: 10px;
-}
-a.nav0{
-	border-left: 1px solid black;
-	padding: 3px;
-	padding-top: 5px;
-}
-a.nav{
-	border-right: 1px solid black;
+a{
+	color: 00b7ff;
+	font-size: 14;
+	text-decoration: none;
 	padding: 3px;
 }
-a:link, a:visited{
-	color: #00f048;
+a:link{
 	text-decoration: none;
 }
 a:hover{
-	color: #008026;
 	text-decoration: underline;
+	color: 0062ff;
 }
-div.info{
-	background-color: #fdfdfd;
-	color: black;
+html{
+	border: 2px solid lime;
 	border-radius: 5px;
-	padding: 5px;
 }
-img{
-	float: right;
-	width: 550px;
+h1, h2, h3, h4{
+	color: lime;
 }
-p, h1, h2, h3, h4, h5{
-	white-space: pre-wrap;
+.nav{
+	background-color:00380b;
+	border: 2px solid lime;
+	padding: 3px;
 }
-code{
-	background-color: #363636;
+.first{
+	padding-left: 4px;
+	border-left: 2px solid lime;
+}
+.navlink{
+	padding-left: 4px;
+	padding-right: 4px;
+	border-right: 2px solid lime;
+}
+.code{
+	font-family: monospace;
+	background-color: 212121;
 	color: white;
-	padding: 2px;
 	border-radius: 2px;
-}
-.right{
-	float: right;
-	padding-right: 50px;
-}
-p.right{
-	text-align: right;
-}
-.left{
-	float: left;
-}
-h3.left{
-	text-align: center;
-}
-li{
+	padding: 4px;
 	text-align: left;
 }
-input.txt{
-	width: 250;
-	background-color: white;
-	border: 2px solid black;
+list, ol{
+	color: lime;
+}
+code{
+	white-space: pre-wrap;
+}
+input{
+	width: auto;
+	height: 20px;
+	border: 0px;
 	border-radius: 2px;
-	padding: 5px;
+	padding: 4px;
 }
-.sb{
-	background-color: white;
-	border: 2px solid black;
+button{
+	border: 0px;
 	border-radius: 2px;
-	padding: 5px;
-}
-button.sb:active{
-	border: 2px solid white;
-}
-button.sb:hover{
-	border: 2px solid gray;
+	background-color: white;
+	height: 20px;
 }
