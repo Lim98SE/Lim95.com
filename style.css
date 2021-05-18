@@ -1,66 +1,85 @@
-@font-face {
-    font-family: 'Gameplay';
-    src: url('Gameplay.woff2') format('woff2'),
-        url('Gameplay.woff') format('woff');
-    font-weight: lighter;
-    font-style: normal;
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 html{
-	background-color: #e5e5e5;
-	border: 5px solid #4f4f4f;
-	font-family: 'Gameplay';
+	font-family: 'Noto Sans JP', sans-serif;
+	background-image: linear-gradient(#0062ff, #8800ff);
+	background-color: #8800ff;
+	background-repeat: no-repeat;
 	text-align: center;
-	color: #3f3f3f;
-	font-size-adjust: 1;
-	padding: 5px;
+	display: block;
 }
-a[href]{
-	color: #004fff;
+div.nav{
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	padding: 10px;
+}
+a.nav0{
+	border-left: 1px solid black;
+	padding: 3px;
+	padding-top: 5px;
+}
+a.nav{
+	border-right: 1px solid black;
+	padding: 3px;
+}
+a:link, a:visited{
+	color: #00f048;
 	text-decoration: none;
-	cursor: pointer;
-	opacity: 1.0;
 }
 a:hover{
+	color: #008026;
 	text-decoration: underline;
 }
-a{
-	text-decoration: none;
-	color: #4f4f4f;
-	cursor: not-allowed;
-	opacity: 0.5;
+div.info{
+	background-color: #fdfdfd;
+	color: black;
+	border-radius: 5px;
+	padding: 5px;
 }
-p, h1, h2{
-	text-align: center;
+img{
+	float: right;
+	width: 550px;
+}
+p, h1, h2, h3, h4, h5{
 	white-space: pre-wrap;
 }
-a.lim{
-	color: #009922;
+code{
+	background-color: #363636;
+	color: white;
+	padding: 2px;
+	border-radius: 2px;
 }
-.big{
-	font-size-adjust: 1.25;
+.right{
+	float: right;
+	padding-right: 50px;
 }
-button{
-	background-color: white;
-	border: 3px solid black;
-	font-family: 'Gameplay';
-	font-size-adjust: 1;
-	opacity: 0.5;
+p.right{
+	text-align: right;
 }
-button:active, button:hover{
-	opacity: 1.0;
-	cursor: pointer;
-}
-button[disabled], button[disabled]:hover{
-	opacity: 0.5;
-	cursor: not-allowed;
-}
-img.gallery{
+.left{
 	float: left;
-	padding: 5px;
-	width: 19.4%;
-	opacity: 0.5
 }
-img.gallery:hover{
-	opacity: 1;
+h3.left{
+	text-align: center;
+}
+li{
+	text-align: left;
+}
+input.txt{
+	width: 250;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 2px;
+	padding: 5px;
+}
+.sb{
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 2px;
+	padding: 5px;
+}
+button.sb:active{
+	border: 2px solid white;
+}
+button.sb:hover{
+	border: 2px solid gray;
 }
